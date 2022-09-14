@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OtherUserActivity">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/white_color"
+        android:orientation="vertical"
+        android:padding="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/shopIV"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/index" />
+
+        <TextView
+            android:id="@+id/nameTV"
+            android:layout_width="389dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:fontFamily="@font/autour_one"
+            android:text=""
+            android:textColor="@color/txt_color"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/subDescTV"
+            android:layout_width="385dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/autour_one"
+            android:text=""
+            android:layout_marginBottom="15dp"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/addressTV"
+            android:layout_width="387dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:drawableLeft="@drawable/location_hand"
+            android:fontFamily="@font/autour_one"
+            android:padding="10dp"
+            android:textColor="@color/txt_color"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/emailTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:drawableLeft="@drawable/email_doodle"
+            android:fontFamily="@font/autour_one"
+            android:padding="10dp"
+            android:textColor="@color/txt_color"
+            android:textSize="14sp" />
+
+
+        <TextView
+            android:id="@+id/numberTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:drawableLeft="@drawable/phone_doodle"
+            android:fontFamily="@font/autour_one"
+            android:padding="10dp"
+            android:textColor="@color/txt_color"
+            android:textSize="14sp" />
+
+
+    </LinearLayout>
+
+
+    <ImageView
+        android:id="@+id/backIV"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/back"
+        android:padding="5dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="#7ACECECE" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

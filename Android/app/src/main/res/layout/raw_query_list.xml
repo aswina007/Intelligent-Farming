@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/query_list_card"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content"
+    android:background="@drawable/query_list_deco"
+    android:padding="6dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/queryTitleTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/autour_one"
+        android:text="Which is better, BE or BTech?"
+        android:textColor="@color/txt_color"
+        android:textSize="14sp"
+        android:layout_margin="12dp"/>
+
+
+    <TextView
+        android:id="@+id/queryDateTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="19-10-2020"
+        android:layout_margin="12dp"/>
+
+</LinearLayout>

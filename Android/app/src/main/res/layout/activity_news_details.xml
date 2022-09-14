@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".NewsDetailsActivity">
+
+    <ImageView
+        android:id="@+id/ImageView"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:padding="8dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/medical" />
+
+    <TextView
+        android:id="@+id/newsHeadlineTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/autour_one"
+        android:text="New Launches"
+        android:padding="5dp"
+        android:textColor="@color/txt_color"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/newsDescTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/autour_one"
+        android:text="New Launches desc"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:textSize="16sp" />
+
+</LinearLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/crop_list_card"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_height="wrap_content"
+    android:weightSum="7"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/cropWeekTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="5dp"
+        android:layout_weight="2"
+        android:fontFamily="@font/autour_one"
+        android:text="Week 1"
+        android:textAlignment="viewEnd"
+        android:textAllCaps="false"
+        android:textColor="@color/txt_color"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="80dp"
+        android:src="@drawable/list"/>
+
+
+    <TextView
+        android:id="@+id/cropDescTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_weight="5"
+        android:fontFamily="@font/autour_one"
+        android:text="New Launches"
+        android:textColor="@color/txt_color"
+        android:textSize="16sp" />
+
+
+</LinearLayout>
